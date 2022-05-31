@@ -1,0 +1,235 @@
+#header,
+#navi,
+.youtube_sec,
+#footer {
+  display: none;
+}
+
+.itadaki_LP_bg p,
+.itadaki_LP_bg h2,
+.itadaki_LP_bgh3,
+.itadaki_LP_bg span,
+.itadaki_LP_bg a,
+.itadaki_LP_bg li {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+.itadaki_LP_bg {
+  background: #660000;
+}
+.itadaki_LP_pc {
+  display: none;
+}
+.itadaki_LP_fv img {
+  width: 100%;
+}
+.itadaki_LP_content_div {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.itadaki_LP_wrap {
+  padding: 42px 10px;
+}
+.itadaki_LP_main {
+  text-align: center;
+  color: #fff;
+}
+.itadaki_LP_main h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+.itadaki_LP_main p {
+  font-size: 18px;
+  margin: 0 0 40px;
+}
+.itadaki_LP_pointbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  border: 1px solid #fff;
+  position: relative;
+  padding: 0;
+  margin: 0 auto 45px;
+}
+.itadaki_LP_pointbox p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 9em;
+}
+.itadaki_LP_pointN {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  background: #000;
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 2px 8px;
+}
+.itadaki_LP_gal {
+  text-align: center;
+  font-size: 0;
+}
+.itadaki_LP_gal img {
+  margin: 0 0 25px;
+  max-width: 90%;
+}
+.itadaki_LP_lineup_bg {
+  background: #fff7ef;
+}
+.itadaki_LP_lineup_wrap h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 35px;
+}
+.itadaki_LP_lineup_wrap h2 > span {
+  font-family: "Montserrat", sans-serif !important;
+}
+.itadaki_LP_card {
+  margin: 0 auto 45px;
+  width: 90%;
+  max-width: 330px;
+}
+.itadaki_LP_card p,
+.itadaki_LP_card a,
+.itadaki_LP_card span {
+  font-weight: 600 !important;
+}
+.itadaki_LP_card img {
+  width: 100%;
+  margin: 0 0 10px;
+}
+.itadaki_LP_card_title {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+.itadaki_LP_card_span {
+  background: #cf1616;
+  padding: 3px 8px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 8px;
+  font-size: 12px;
+}
+.itadaki_LP_card_price {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+.itadaki_LP_card_btn {
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 5px;
+  background: #2a2424;
+  color: #fff !important;
+  font-size: 16px;
+}
+.itadaki_LP_footer {
+  padding: 45px 0 5px;
+  color: #fff;
+}
+.itadaki_LP_nav {
+  list-style: none;
+  margin: 0 0 75px;
+}
+.itadaki_LP_nav li {
+  margin: 0 0 20px;
+  text-align: center;
+}
+.itadaki_LP_nav li > a {
+  font-size: 14px;
+  position: relative;
+}
+.itadaki_LP_nav li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.itadaki_LP_nav li > a::after {
+  content: "";
+  background: #fff;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.itadaki_LP_footer p {
+  text-align: center;
+  font-size: 10px;
+}
+
+/*--------PC--------*/
+@media screen and (min-width: 770px) {
+  .itadaki_LP_pc {
+    display: inline;
+  }
+  .itadaki_LP_sp {
+    display: none;
+  }
+  .itadaki_LP_wrap {
+    padding: 82px 0;
+  }
+  .itadaki_LP_main h2 {
+    font-size: 32px;
+    margin: 0 0 30px;
+  }
+  .itadaki_LP_point {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto 45px;
+  }
+  .itadaki_LP_gal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .itadaki_LP_gal img {
+    display: block;
+    width: calc((100% - 40px) / 3);
+  }
+  .itadaki_LP_lineup_wrap h2 {
+    margin-bottom: 60px;
+  }
+  .itadaki_LP_lineup_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .itadaki_LP_footer {
+    padding: 80px 0 60px;
+  }
+  .itadaki_LP_nav {
+    text-align: center;
+    margin: 0 0 55px;
+  }
+  .itadaki_LP_nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .itadaki_LP_footer p {
+    font-size: 14px;
+  }
+}
